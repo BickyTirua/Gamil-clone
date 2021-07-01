@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gmail Clone</title>
+    <link rel="stylesheet" href="styel.css" />
+    <!-- Font aswesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- -------------Header -->
+      <header>
+        <nav>
+          <div class="menu">
+            <div class="menu-icon">
+              <i class="fas fa-bars"></i>
+            </div>
+            <div class="g-logo">
+              <img src="./img/logo.png" alt="Gmail-logo" />
+            </div>
+            <div class="g-text">
+              <span>Gmail</span>
+            </div>
+          </div>
+          <div class="search-bar">
+            <div class="search-icons">
+              <i class="fas fa-search"></i>
+            </div>
+            <div class="search-icons">
+              <i class="fas fa-sliders-h"></i>
+            </div>
+
+            <input type="text" placeholder="Search mail" />
+          </div>
+          <div class="acunt">
+            <div class="act-icon">
+              <i class="fas fa-question-circle"></i>
+            </div>
+            <div class="act-icon">
+              <i class="fas fa-cog"></i>
+            </div>
+            <div class="act-icon">
+              <svg class="cady-box" focusable="false" viewBox="0 0 24 24">
+                <path
+                  d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"
+                ></path>
+              </svg>
+            </div>
+
+            <div class="ac-img"></div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- -------------Header end-->
+
+      <!-- -------------inbox section  -->
+      <section id="msg-body">
+        <!-- ---------------Left Side Panle -->
+        <div class="left-panle">
+          <div id="msg-bx">
+            <div class="compose">
+              <span></span>
+              <span>Compose</span>
+            </div>
+            <div class="msg-noti">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span>
+                      <i class="fas fa-inbox"></i>
+                      Inbox
+                    </span>
+                    <span>43,369</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>
+                      <i class="fas fa-star"></i>
+                      Starred
+                    </span>
+                    <span></span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    <span>
+                      <i class="fas fa-clock"></i>
+                      Snoozed
+                    </span>
+                    <span></span>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    <span>
+                      <i class="fas fa-inbox"></i>
+                      Important
+                    </span>
+                    <span></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>
+                      <i class="fab fa-telegram-plane"></i>
+                      Sent
+                    </span>
+                    <span></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>
+                      <i class="fas fa-file"></i>
+                      Drafts
+                    </span>
+                    <span>36</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>
+                      <i class="fas fa-inbox"></i>
+                      Categories
+                    </span>
+                    <span></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>
+                      <i class="fas fa-inbox"></i>
+                      Mores
+                    </span>
+                    <span></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>
+                      <i class="fas fa-inbox"></i>
+                      Inbox
+                    </span>
+                    <span>43,369</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>
+                      <i class="fas fa-inbox"></i>
+                      Inbox
+                    </span>
+                    <span>43,369</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span>
+                      <i class="fas fa-inbox"></i>
+                      Inbox
+                    </span>
+                    <span>43,369</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meet">
+            <span id="met">Meet</span>
+            <ul>
+              <li>
+                <a href="#">
+                  <span><i class="fas fa-video"></i></span>
+                  <span>New meeting</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span><i class="fas fa-keyboard"></i></span>
+                  <span>Join a meeting</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div id="hang-div">
+            <p>Hangout</p>
+            <div class="hangout">
+              <ul>
+                <li>
+                  <a href="#">
+                    <div>
+                      <div class="hang-img"></div>
+                      <div class="hng-nm">
+                        <span>Biki</span>
+                      </div>
+                    </div>
+                    <span id="hng-pls">+</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <div>
+                      <div class="hang-img"></div>
+                      <div class="hng-nm">
+                        <span>Jack</span>
+                      </div>
+                    </div>
+                    <span id="hng-pls">+</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="left-btm">
+              <div>
+                <i class="fas fa-user"></i>
+                <i class="fas fa-comment-dots"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ---------------Left Side Panle end-->
+
+        <!-- -----------------mid side panle -->
+        <div class="mid-panle">
+          <div class="mid-head">
+            <div class="left-menu">
+              <span>
+                <i class="far fa-square"></i>
+                <i class="fas fa-sort-down"></i>
+              </span>
+              <span><i class="fas fa-redo"></i></span>
+              <span><i class="fas fa-ellipsis-v"></i></span>
+            </div>
+            <div class="right-menu">
+              <span>
+                <i class="fas fa-keyboard"></i>
+                <i class="fas fa-sort-down"></i>
+              </span>
+            </div>
+          </div>
+
+          <div class="inbox-msg">
+            <div id="inboxs">
+              <div class="inbox-header">
+                <div class="unred">
+                  <span><i class="fas fa-chevron-up"></i></span>
+                  <span>Unread</span>
+                </div>
+                <div class="number-of-msg">
+                  <span>1-25 of 33,396</span>
+                  <span><i class="fas fa-ellipsis-v"></i></span>
+                </div>
+              </div>
+
+              <div class="msges">
+                <ul>
+                  <li>
+                    <div class="user">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="fas fa-caret-right"></i></span>
+                      <span>Jhone</span>
+                    </div>
+                    <div class="user-msg">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Soluta, quo molestias, similique minima
+                    </div>
+                    <div class="active-btn">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="fas fa-trash"></i></span>
+                      <span><i class="fas fa-envelope-open"></i></span>
+                      <span><i class="fas fa-clock"></i></span>
+                    </div>
+                    <div class="time">
+                      <span>9:30PM</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="user">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="fas fa-caret-right"></i></span>
+                      <span>flipkart</span>
+                    </div>
+                    <div class="user-msg">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Soluta, quo molestias, similique minima
+                    </div>
+                    <div class="active-btn">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="fas fa-trash"></i></span>
+                      <span><i class="fas fa-envelope-open"></i></span>
+                      <span><i class="fas fa-clock"></i></span>
+                    </div>
+                    <div class="time">
+                      <span>6:30PM</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="user">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="fas fa-caret-right"></i></span>
+                      <span>SBI</span>
+                    </div>
+                    <div class="user-msg">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Soluta, quo molestias, similique minima
+                    </div>
+                    <div class="active-btn">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="fas fa-trash"></i></span>
+                      <span><i class="fas fa-envelope-open"></i></span>
+                      <span><i class="fas fa-clock"></i></span>
+                    </div>
+                    <div class="time">
+                      <span>9:30AM</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="user">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="fas fa-caret-right"></i></span>
+                      <span>SBI</span>
+                    </div>
+                    <div class="user-msg">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Soluta, quo molestias, similique minima
+                    </div>
+                    <div class="active-btn">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="fas fa-trash"></i></span>
+                      <span><i class="fas fa-envelope-open"></i></span>
+                      <span><i class="fas fa-clock"></i></span>
+                    </div>
+                    <div class="time">
+                      <span>9:30AM</span>
+                    </div>
+                  </li>
+                  
+                  <li>
+                    <div class="user">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="fas fa-caret-right"></i></span>
+                      <span>Facebook</span>
+                    </div>
+                    <div class="user-msg">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Soluta, quo molestias, similique minima
+                    </div>
+                    <div class="active-btn">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="fas fa-trash"></i></span>
+                      <span><i class="fas fa-envelope-open"></i></span>
+                      <span><i class="fas fa-clock"></i></span>
+                    </div>
+                    <div class="time">
+                      <span>10:36PM</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="user">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="fas fa-caret-right"></i></span>
+                      <span>SIVI</span>
+                    </div>
+                    <div class="user-msg">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Soluta, quo molestias, similique minima
+                    </div>
+                    <div class="active-btn">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="fas fa-trash"></i></span>
+                      <span><i class="fas fa-envelope-open"></i></span>
+                      <span><i class="fas fa-clock"></i></span>
+                    </div>
+                    <div class="time">
+                      <span>6:30AM</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="user">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="fas fa-caret-right"></i></span>
+                      <span>Jhone</span>
+                    </div>
+                    <div class="user-msg">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Soluta, quo molestias, similique minima
+                    </div>
+                    <div class="active-btn">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="fas fa-trash"></i></span>
+                      <span><i class="fas fa-envelope-open"></i></span>
+                      <span><i class="fas fa-clock"></i></span>
+                    </div>
+                    <div class="time">
+                      <span>9:30PM</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="user">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="fas fa-caret-right"></i></span>
+                      <span>Jhone</span>
+                    </div>
+                    <div class="user-msg">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Soluta, quo molestias, similique minima
+                    </div>
+                    <div class="active-btn">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="fas fa-trash"></i></span>
+                      <span><i class="fas fa-envelope-open"></i></span>
+                      <span><i class="fas fa-clock"></i></span>
+                    </div>
+                    <div class="time">
+                      <span>9:30PM</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="user">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="fas fa-caret-right"></i></span>
+                      <span>Jhone</span>
+                    </div>
+                    <div class="user-msg">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Soluta, quo molestias, similique minima
+                    </div>
+                    <div class="active-btn">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="fas fa-trash"></i></span>
+                      <span><i class="fas fa-envelope-open"></i></span>
+                      <span><i class="fas fa-clock"></i></span>
+                    </div>
+                    <div class="time">
+                      <span>9:30PM</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="user">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="fas fa-caret-right"></i></span>
+                      <span>Jhone</span>
+                    </div>
+                    <div class="user-msg">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Soluta, quo molestias, similique minima
+                    </div>
+                    <div class="active-btn">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="fas fa-trash"></i></span>
+                      <span><i class="fas fa-envelope-open"></i></span>
+                      <span><i class="fas fa-clock"></i></span>
+                    </div>
+                    <div class="time">
+                      <span>9:30PM</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="user">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="fas fa-caret-right"></i></span>
+                      <span>Jhone</span>
+                    </div>
+                    <div class="user-msg">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Soluta, quo molestias, similique minima
+                    </div>
+                    <div class="active-btn">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="fas fa-trash"></i></span>
+                      <span><i class="fas fa-envelope-open"></i></span>
+                      <span><i class="fas fa-clock"></i></span>
+                    </div>
+                    <div class="time">
+                      <span>9:30PM</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="user">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="fas fa-caret-right"></i></span>
+                      <span>flipkart</span>
+                    </div>
+                    <div class="user-msg">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Soluta, quo molestias, similique minima
+                    </div>
+                    <div class="active-btn">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="fas fa-trash"></i></span>
+                      <span><i class="fas fa-envelope-open"></i></span>
+                      <span><i class="fas fa-clock"></i></span>
+                    </div>
+                    <div class="time">
+                      <span>6:30PM</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="user">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="fas fa-caret-right"></i></span>
+                      <span>flipkart</span>
+                    </div>
+                    <div class="user-msg">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Soluta, quo molestias, similique minima
+                    </div>
+                    <div class="active-btn">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="fas fa-trash"></i></span>
+                      <span><i class="fas fa-envelope-open"></i></span>
+                      <span><i class="fas fa-clock"></i></span>
+                    </div>
+                    <div class="time">
+                      <span>6:30PM</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="user">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="fas fa-caret-right"></i></span>
+                      <span>flipkart</span>
+                    </div>
+                    <div class="user-msg">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Soluta, quo molestias, similique minima
+                    </div>
+                    <div class="active-btn">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="fas fa-trash"></i></span>
+                      <span><i class="fas fa-envelope-open"></i></span>
+                      <span><i class="fas fa-clock"></i></span>
+                    </div>
+                    <div class="time">
+                      <span>6:30PM</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="user">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="fas fa-caret-right"></i></span>
+                      <span>flipkart</span>
+                    </div>
+                    <div class="user-msg">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Soluta, quo molestias, similique minima
+                    </div>
+                    <div class="active-btn">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="fas fa-trash"></i></span>
+                      <span><i class="fas fa-envelope-open"></i></span>
+                      <span><i class="fas fa-clock"></i></span>
+                    </div>
+                    <div class="time">
+                      <span>6:30PM</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div id="inboxs">
+              <div class="inbox-header">
+                <div class="unred">
+                  <span><i class="fas fa-chevron-down"></i></span>
+                  <span>EveryThing else</span>
+                </div>
+                <div class="number-of-msg">
+                  <span>1-25 of 33,396</span>
+                  <span><i class="fas fa-ellipsis-v"></i></span>
+                </div>
+              </div>
+
+              <div class="msges btmMsg">
+                <ul>
+                  <li>
+                    <div class="user">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="fas fa-redo"></i></span>
+                      <span><i class="fas fa-caret-right"></i></span>
+                      <span>Jhone</span>
+                    </div>
+
+                    <div class="user-msg">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Soluta, quo molestias, similique minima
+                    </div>
+                    <div class="active-btn">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="fas fa-trash"></i></span>
+                      <span><i class="fas fa-envelope-open"></i></span>
+                      <span><i class="fas fa-clock"></i></span>
+                    </div>
+
+                    <div class="time">
+                      <span>9:30PM</span>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="user">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="fas fa-caret-right"></i></span>
+                      <span>SBI</span>
+                    </div>
+                    <div class="user-msg">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Soluta, quo molestias, similique minima
+                    </div>
+                    <div class="active-btn">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="fas fa-trash"></i></span>
+                      <span><i class="fas fa-envelope-open"></i></span>
+                      <span><i class="fas fa-clock"></i></span>
+                    </div>
+                    <div class="time">
+                      <span>9:30AM</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="user">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="fas fa-caret-right"></i></span>
+                      <span>Facebook</span>
+                    </div>
+                    <div class="user-msg">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Soluta, quo molestias, similique minima
+                    </div>
+                    <div class="active-btn">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="fas fa-trash"></i></span>
+                      <span><i class="fas fa-envelope-open"></i></span>
+                      <span><i class="fas fa-clock"></i></span>
+                    </div>
+                    <div class="time">
+                      <span>10:36PM</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="user">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="fas fa-caret-right"></i></span>
+                      <span>SIVI</span>
+                    </div>
+                    <div class="user-msg">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Soluta, quo molestias, similique minima
+                    </div>
+                    <div class="active-btn">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="fas fa-trash"></i></span>
+                      <span><i class="fas fa-envelope-open"></i></span>
+                      <span><i class="fas fa-clock"></i></span>
+                    </div>
+                    <div class="time">
+                      <span>6:30AM</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="user">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="fas fa-caret-right"></i></span>
+                      <span>flipkart</span>
+                    </div>
+                    <div class="user-msg">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Soluta, quo molestias, similique minima
+                    </div>
+                    <div class="active-btn">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="fas fa-trash"></i></span>
+                      <span><i class="fas fa-envelope-open"></i></span>
+                      <span><i class="fas fa-clock"></i></span>
+                    </div>
+                    <div class="time">
+                      <span>6:30PM</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="user">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="fas fa-caret-right"></i></span>
+                      <span>flipkart</span>
+                    </div>
+                    <div class="user-msg">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Soluta, quo molestias, similique minima
+                    </div>
+                    <div class="active-btn">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="fas fa-trash"></i></span>
+                      <span><i class="fas fa-envelope-open"></i></span>
+                      <span><i class="fas fa-clock"></i></span>
+                    </div>
+                    <div class="time">
+                      <span>6:30PM</span>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="user">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="far fa-star"></i></span>
+                      <span><i class="fas fa-caret-right"></i></span>
+                      <span>flipkart</span>
+                    </div>
+                    <div class="user-msg">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Soluta, quo molestias, similique minima
+                    </div>
+                    <div class="active-btn">
+                      <span><i class="far fa-square"></i></span>
+                      <span><i class="fas fa-trash"></i></span>
+                      <span><i class="fas fa-envelope-open"></i></span>
+                      <span><i class="fas fa-clock"></i></span>
+                    </div>
+                    <div class="time">
+                      <span>6:30PM</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="mid-footer">
+              <div class="input">
+                <input type="text" placeholder="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- -----------------mid side panle end-->
+
+        <!-- -----------------right side panle -->
+        <div id="right-panle">
+          <div class="g-icons">
+            <div class="caledr"></div>
+            <div class="keep"></div>
+            <div class="task"></div>
+            <div class="contact"></div>
+            <div class="add-ons">+</div>
+          </div>
+          <div class="hide-panel">></div>
+        </div>
+        <!-- -----------------right side panle end-->
+      </section>
+
+      <!-- -------------inbox section  end -->
+    </div>
+  </body>
+</html>
+
+<!-- Devloped By - Biki Tirua on Canitech -->
